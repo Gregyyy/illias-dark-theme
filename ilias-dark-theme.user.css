@@ -324,3 +324,37 @@
         background-color: rgb(var(--color-background));
         border-radius: 5px
     }
+    
+    .panel-default > .panel-heading {
+        color: #4d4d4d;
+        background-color: rgb(var(--color-foreground));
+    }
+    
+    div.ilBlogList {
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: rgb(var(--color-background));
+    }
+    div.ilNotes {
+        background-color: rgb(var(--color-foreground));
+        padding: 15px;
+    }
+    
+    div.il_ContainerItemCommands2 {
+        text-align: right;
+        margin: 0 3px 3px 3px;
+    }
+    
+    div.light {
+        color: rgb(var(--color-text));
+    }
+    
+    div.ilc_page_cont_PageContainer {
+        background-color: rgb(var(--color-foreground));
+        border-width: 1px;
+        border-color: rgb(var(--color-foreground-grey));
+        padding: 20px;
+        margin: 0px;
+        border-style: solid;
+    }
+}
