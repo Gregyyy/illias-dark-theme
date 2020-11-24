@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Mode For Ilias at FHV
 @namespace      https://github.com/jan222ik/illias-dark-theme-user-css
-@version        1.2.1
+@version        1.2.2
 @description    Dark Mode Fir Ilias at FHV
 @author         Continued by jan222ik - Base from github.com/pgr3931 at https://github.com/pgr3931/OldThemeForAnilist
 @homepageURL    https://github.com/jan222ik/illias-dark-theme-user-css
@@ -34,6 +34,22 @@
     .il-multi-line-cap-3:after{
         background:  rgb(var(--color-foreground));
     }
+    
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        border-radius: 10px;
+    }
+    
+    .alert-info {
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+        color: #31708f;
+        
+    }
+    
 
     .dropdown-menu li > a,
     #ilTopNav .dropdown-menu li a,
@@ -356,5 +372,65 @@
         padding: 20px;
         margin: 0px;
         border-style: solid;
+    }
+    .surveySheet {
+        padding: 20px;
+        border-style: solid;
+        border-color: #9EADBA;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        margin-bottom: 0px;
+         border-radius: 10px;
+    }
+    
+    td.nobackground {
+        color: white;
+        background-color: inherit;
+        border-spacing: 0;
+        border: none;
+        padding: 3px;
+        vertical-align: top;
+    }
+    .obligatory {
+        font-weight: normal;
+        color: rgb(var(--color-link-red));
+        font-variant: normal;
+    }
+    .solutionbox {
+        color: white;
+        background-color: rgb(var(--color-foreground));
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-style: inset;
+        border-width: 1px;
+        display: inline-block;
+        width: 400px;
+        border-radius: 10px;
+    }
+    
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background:  rgb(var(--color-foreground));
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(var(--color-text-lighter));
+        border-radius: 5px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(var(--color-red));
     }
 }
