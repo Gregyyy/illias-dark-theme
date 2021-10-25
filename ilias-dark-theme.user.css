@@ -7,430 +7,428 @@
 @homepageURL    https://github.com/jan222ik/illias-dark-theme-user-css
 @updateURL      https://github.com/jan222ik/illias-dark-theme-user-css/raw/master/ilias-dark-theme.user.css
 ==/UserStyle== */
-@-moz-document domain("ilias.fhv.at") {
-    :root {
-        --color-background: 39, 44, 56;
-        --color-foreground: 31, 35, 45;
-        --color-text: 159, 173, 189;
-        --color-text-lighter: 133, 150, 165;
-        --color-foreground-grey: 25, 29, 38;
-        --color-red: 168, 0, 39;
-        --color-link-red: 234, 2, 59;
-    }
+:root {
+    --color-background: 39, 44, 56;
+    --color-foreground: 31, 35, 45;
+    --color-text: 159, 173, 189;
+    --color-text-lighter: 133, 150, 165;
+    --color-foreground-grey: 25, 29, 38;
+    --color-green: 0, 150, 130;
+    --color-link-green: 0, 150, 130;
+}
 
-    body,
-    #il_center_col div.il_Block,
-    div.ilBlockInfo,
-    #ilTopNav .dropdown-menu,
-    .dropdown-menu,
-    .ilFormHeader,
-    .modal-content,
-    .close,
-    .close:hover{
-        background-color: rgb(var(--color-background));
-        color: rgb(var(--color-text));
-    }
-    
-    .il-multi-line-cap-3:after{
-        background:  rgb(var(--color-foreground));
-    }
-    
-    .alert {
-        padding: 15px;
-        margin-bottom: 20px;
-        border: 1px solid transparent;
-        border-radius: 0px;
-        border-radius: 10px;
-    }
-    
-    .alert-info {
-        background-color: #d9edf7;
-        border-color: #bce8f1;
-        color: #31708f;
-        
-    }
-    
+body,
+#il_center_col div.il_Block,
+div.ilBlockInfo,
+#ilTopNav .dropdown-menu,
+.dropdown-menu,
+.ilFormHeader,
+.modal-content,
+.close,
+.close:hover {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-text));
+}
 
-    .dropdown-menu li > a,
-    #ilTopNav .dropdown-menu li a,
-    #ilTopBarNav .dropdown-menu a,
-    .navbar-default .navbar-text,
-    span.ilTableFootLight,
-    .il_InfoScreenProperty{
-        color: rgb(var(--color-text));
-    }
+.il-multi-line-cap-3:after {
+    background: rgb(var(--color-foreground));
+}
 
-    .dropdown-menu .divider {
-        background-color: rgb(var(--color-text));
-    }
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    border-radius: 10px;
+}
 
-    #ilTopNav .navbar-nav > .active > a,
-    #ilTopNav .navbar-nav > .open > a,
-    #ilTopNav .navbar-nav > .active > a:hover,
-    #ilTopNav .navbar-nav > .open > a:hover,
-    #ilTopNav .navbar-nav > .active > a:active,
-    #ilTopNav .navbar-nav > .open > a:active,
-    #ilTopNav .navbar-nav > .active > a:focus,
-    #ilTopNav .navbar-nav > .open > a:focus,
-    footer.ilFooter,
-    #ilTopNav .dropdown-menu li a:hover,
-    .dropdown-header,
-    .dropdown-menu li > a:hover,
-    #ilTopBarNav .dropdown-menu a:hover,
-    .ilFormFooter,
-    .ilFormValue,
-    .ilFormValue > p,
-    .ilToolbar.navbar,
-    div.ilTableSelectAll,
-    .table > thead > tr > th,
-    .form-horizontal,
-    .il_InfoScreenPropertyValue{
-        background-color: rgb(var(--color-foreground));
-        color: rgb(var(--color-text));
-    }
-
-    .ilFormValue > p {
-        margin: 0;
-        padding: 10px
-    }
-
-    #ilTopBarNav .dropdown-menu,
-    #ilTopBarNav > .active > a,
-    #ilTopBarNav > .open > a,
-    #ilTopBarNav > .active > a:hover,
-    #ilTopBarNav > .open > a:hover,
-    #ilTopBarNav > .active > a:active,
-    #ilTopBarNav > .open > a:active,
-    #ilTopBarNav > .active > a:focus,
-    #ilTopBarNav > .open > a:focus {
-        background-color: rgb(var(--color-background));
-        color: rgb(var(--color-text));
-    }
-
-    .il-viewcontrol-mode .ilSubmitInactive,
-    .il-viewcontrol-section .ilSubmitInactive,
-    .il-viewcontrol-mode .ilSubmitInactive:hover,
-    .il-viewcontrol-section .ilSubmitInactive:hover {
-        background-color: rgb(var(--color-background));
-        color: #fff
-    }
-
-    h1,
-    .h1,
-    h2,
-    .h2,
-    h3,
-    .h3,
-    h3.ilHeader,
-    table.calmini tr,
-    table.calmini td,
-    table.calmini th,
-    footer.ilFooter div.ilFooterContainer,
-    footer.ilFooter a.permalink_label,
-    footer.ilFooter div.ilFooterContainer > a,
-    .il-panel-listing-std-container > h3,
-    .il-panel-listing-std-container > .il-item-group > h4,
-    .il-item .il-item-property-value,
-    .dropdown-menu li > .btn,
-    .dropdown-menu li > .btn:hover,
-    div.ilHeaderDesc,
-    .form-horizontal label {
-        color: rgb(var(--color-text));
-    }
-
-    .ilObjListRow,
-    .ilLeftNav,
-    div.il_Block,
-    table.il_Block {
-        background-color: rgb(var(--color-foreground));
-        border-bottom: none;
-        border-radius: 5px;
-        margin-bottom: 5px
-    }
-
-    div.ilBlockHeader,
-    div.ilBlockHeaderBig,
-    td.ilBlockHeader,
-    td.ilBlockHeaderBig,
-    .ilBlockRow1,
-    .ilBlockRow2 {
-        border-bottom: 2px solid rgb(var(--color-background));
-    }
-
-    .ilLeftNav {
-        border-right: 3px solid rgb(var(--color-background));
-    }
-
-    .jstree.jstree-default a.disabled {
-        color: rgb(var(--color-text-lighter)) !important;
-    }
-
-    .ilObjListRow:hover,
-    a.ilTreeView,
-    a.ilTreeView > img,
-    .il_HAccordionHead:hover,
-    .il_VAccordionHead:hover {
-        background-color: rgb(var(--color-foreground-grey));
-    }
-
-    a.ilTreeView,
-    a.ilTreeView > img {
-        box-shadow: none;
-        -webkit-box-shadow: none;
-        border: none;
-    }
-
-    table.calmini {
-        background-color: transparent
-    }
-
-    .ilMainHeader,
-    div.ilTopBar,
-    #ilTopBarNav > li > a,
-    .bootstrap-datetimepicker-widget table td span:hover,
-    .bootstrap-datetimepicker-widget table thead tr:first-child th:hover,
-    .il-item-marker,
-    div.ilCalSelSelAll,
-    div.ilCalSelAct,
-    .dropdown-menu li > .btn:hover,
-    div.ilTableOuter,
-    div.ilTableCommandRow,
-    div.ilTableCommandRowTop,
-    .ilTableOuter .table,
-    .table-striped > tbody > tr:nth-of-type(odd),
-    fieldset.ilTableFilter,
-    .ilInfoScreenSec.form-horizontal .form-group{
-        background-color: rgb(var(--color-foreground));
-    }
-
-    .table > thead > tr > th,
-    .table > tbody > tr > th,
-    .table > tfoot > tr > th,
-    .table > thead > tr > td,
-    .table > tbody > tr > td,
-    .table > tfoot > tr > td {
-        border-top: 1px solid rgb(var(--color-text));
-    }
-
-    .table > thead > tr > th {
-        border-bottom: 1px solid rgb(var(--color-text));
-    }
-
-    table.calmini td.calminitoday,
-    .bootstrap-datetimepicker-widget table td span.active {
-        background-color: rgb(var(--color-red));
-        color: rgb(var(--color-text));
-    }
-
-    .nav > li > a:hover,
-    .nav > li > a:focus {
-        background-color: rgb(var(--color-red));
-        color: #fff;
-    }
-
-    .btn-default {
-        background-color: rgb(var(--color-red));
-    }
-
-    table.calmini td.calminitoday,
-    .ilToolbar.navbar,
-    .il-item-marker,
-    div.ilTableOuter,
-    div.ilTableCommandRow,
-    div.ilTableCommandRowTop,
-    .form-horizontal,
-    .form-horizontal .form-group,
-    .il_InfoScreenPropertyValue{
-        border-radius: 5px
-    }
-
-    .il_VAccordionHead,
-    .il_HAccordionHead {
-        background: url(../../../../templates/default/images/tree_col.svg) no-repeat 9px 10px rgb(var(--color-foreground));
-        border-radius: 5px
-    }
-
-    .il_HAccordionHeadActive,
-    .il_VAccordionHeadActive {
-        background-image: url(../../../../templates/default/images/tree_exp.svg);
-    }
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
 
 
-    .form-horizontal .form-group {
-        margin-top: 5px;
-        padding-top: 5px;
-    }
+.dropdown-menu li > a,
+#ilTopNav .dropdown-menu li a,
+#ilTopBarNav .dropdown-menu a,
+.navbar-default .navbar-text,
+span.ilTableFootLight,
+.il_InfoScreenProperty {
+    color: rgb(var(--color-text));
+}
 
-    table.calmini td:nth-child(1) {
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
+.dropdown-menu .divider {
+    background-color: rgb(var(--color-text));
+}
 
-    table.calmini td:nth-child(7) {
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
+#ilTopNav .navbar-nav > .active > a,
+#ilTopNav .navbar-nav > .open > a,
+#ilTopNav .navbar-nav > .active > a:hover,
+#ilTopNav .navbar-nav > .open > a:hover,
+#ilTopNav .navbar-nav > .active > a:active,
+#ilTopNav .navbar-nav > .open > a:active,
+#ilTopNav .navbar-nav > .active > a:focus,
+#ilTopNav .navbar-nav > .open > a:focus,
+footer.ilFooter,
+#ilTopNav .dropdown-menu li a:hover,
+.dropdown-header,
+.dropdown-menu li > a:hover,
+#ilTopBarNav .dropdown-menu a:hover,
+.ilFormFooter,
+.ilFormValue,
+.ilFormValue > p,
+.ilToolbar.navbar,
+div.ilTableSelectAll,
+.table > thead > tr > th,
+.form-horizontal,
+.il_InfoScreenPropertyValue {
+    background-color: rgb(var(--color-foreground));
+    color: rgb(var(--color-text));
+}
 
-    .il-item .il-item-divider {
-        border-bottom: dashed 0.5px rgb(var(--color-text));
-    }
+.ilFormValue > p {
+    margin: 0;
+    padding: 10px
+}
 
-    #ilTab, .modal-header {
-        border-bottom: solid 2px rgb(var(--color-foreground-grey));
-    }
-    
-    .modal-footer{
-         border-top: solid 2px rgb(var(--color-foreground-grey));
-    }
+#ilTopBarNav .dropdown-menu,
+#ilTopBarNav > .active > a,
+#ilTopBarNav > .open > a,
+#ilTopBarNav > .active > a:hover,
+#ilTopBarNav > .open > a:hover,
+#ilTopBarNav > .active > a:active,
+#ilTopBarNav > .open > a:active,
+#ilTopBarNav > .active > a:focus,
+#ilTopBarNav > .open > a:focus {
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-text));
+}
 
-    .nav-tabs > li.active > a,
-    .nav-tabs > li.active > a:hover,
-    .nav-tabs > li.active > a:focus {
-        background-color: rgb(var(--color-foreground-grey));
-    }
+.il-viewcontrol-mode .ilSubmitInactive,
+.il-viewcontrol-section .ilSubmitInactive,
+.il-viewcontrol-mode .ilSubmitInactive:hover,
+.il-viewcontrol-section .ilSubmitInactive:hover {
+    background-color: rgb(var(--color-background));
+    color: #fff
+}
 
-    ul.ilCalSel li {
-        border-bottom: 1px solid rgb(var(--color-text));
-        margin-bottom: 2px
-    }
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h3.ilHeader,
+table.calmini tr,
+table.calmini td,
+table.calmini th,
+footer.ilFooter div.ilFooterContainer,
+footer.ilFooter a.permalink_label,
+footer.ilFooter div.ilFooterContainer > a,
+.il-panel-listing-std-container > h3,
+.il-panel-listing-std-container > .il-item-group > h4,
+.il-item .il-item-property-value,
+.dropdown-menu li > .btn,
+.dropdown-menu li > .btn:hover,
+div.ilHeaderDesc,
+.form-horizontal label {
+    color: rgb(var(--color-text));
+}
+
+.ilObjListRow,
+.ilLeftNav,
+div.il_Block,
+table.il_Block {
+    background-color: rgb(var(--color-foreground));
+    border-bottom: none;
+    border-radius: 5px;
+    margin-bottom: 5px
+}
+
+div.ilBlockHeader,
+div.ilBlockHeaderBig,
+td.ilBlockHeader,
+td.ilBlockHeaderBig,
+.ilBlockRow1,
+.ilBlockRow2 {
+    border-bottom: 2px solid rgb(var(--color-background));
+}
+
+.ilLeftNav {
+    border-right: 3px solid rgb(var(--color-background));
+}
+
+.jstree.jstree-default a.disabled {
+    color: rgb(var(--color-text-lighter)) !important;
+}
+
+.ilObjListRow:hover,
+a.ilTreeView,
+a.ilTreeView > img,
+.il_HAccordionHead:hover,
+.il_VAccordionHead:hover {
+    background-color: rgb(var(--color-foreground-grey));
+}
+
+a.ilTreeView,
+a.ilTreeView > img {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+}
+
+table.calmini {
+    background-color: transparent
+}
+
+.ilMainHeader,
+div.ilTopBar,
+#ilTopBarNav > li > a,
+.bootstrap-datetimepicker-widget table td span:hover,
+.bootstrap-datetimepicker-widget table thead tr:first-child th:hover,
+.il-item-marker,
+div.ilCalSelSelAll,
+div.ilCalSelAct,
+.dropdown-menu li > .btn:hover,
+div.ilTableOuter,
+div.ilTableCommandRow,
+div.ilTableCommandRowTop,
+.ilTableOuter .table,
+.table-striped > tbody > tr:nth-of-type(odd),
+fieldset.ilTableFilter,
+.ilInfoScreenSec.form-horizontal .form-group {
+    background-color: rgb(var(--color-foreground));
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: 1px solid rgb(var(--color-text));
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid rgb(var(--color-text));
+}
+
+table.calmini td.calminitoday,
+.bootstrap-datetimepicker-widget table td span.active {
+    background-color: rgb(var(--color-green));
+    color: rgb(var(--color-text));
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: rgb(var(--color-green));
+    color: #fff;
+}
+
+.btn-default {
+    background-color: rgb(var(--color-green));
+}
+
+table.calmini td.calminitoday,
+.ilToolbar.navbar,
+.il-item-marker,
+div.ilTableOuter,
+div.ilTableCommandRow,
+div.ilTableCommandRowTop,
+.form-horizontal,
+.form-horizontal .form-group,
+.il_InfoScreenPropertyValue {
+    border-radius: 5px
+}
+
+.il_VAccordionHead,
+.il_HAccordionHead {
+    background: url(../../../../templates/default/images/tree_col.svg) no-repeat 9px 10px rgb(var(--color-foreground));
+    border-radius: 5px
+}
+
+.il_HAccordionHeadActive,
+.il_VAccordionHeadActive {
+    background-image: url(../../../../templates/default/images/tree_exp.svg);
+}
 
 
-    #il_center_col div.il_Block,
-    div.ilBlockInfo {
-        margin-top: 2px;
-        border-radius: 5px
-    }
+.form-horizontal .form-group {
+    margin-top: 5px;
+    padding-top: 5px;
+}
 
-    .btn-default,
-    span.ilNewsRssIcon {
-        border-radius: 5px;
-        border: none
-    }
+table.calmini td:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 
-    .btn-default:hover,
-    .btn-default:focus,
-    .btn-default.focus,
-    .btn-default:active,
-    .btn-default.active,
-    .open > .dropdown-toggle.btn-default {
-        color: rgb(var(--color-link-red));
-        background-color: rgb(var(--color-foreground));
-        border: none;
-    }
+table.calmini td:nth-child(7) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
-    #ilTopNav .navbar-nav > li > a:hover,
-    #ilTopNav .navbar-nav > li > a:active,
-    #ilTopNav .navbar-nav > li > a:focus,
-    .ilBlockContent .il-viewcontrol-section .btn.btn-default,
-    .jstree.jstree-default a {
-        color: rgb(var(--color-link-red))!important;
-    }
+.il-item .il-item-divider {
+    border-bottom: dashed 0.5px rgb(var(--color-text));
+}
 
-    a,
-    a#il_mhead_t_focus,
-    .btn-link {
-        color: rgb(var(--color-link-red));
-    }
+#ilTab,
+.modal-header {
+    border-bottom: solid 2px rgb(var(--color-foreground-grey));
+}
 
-    table.calmini tr:nth-child(odd) {
-        background-color: rgb(var(--color-foreground));
-    }
+.modal-footer {
+    border-top: solid 2px rgb(var(--color-foreground-grey));
+}
 
-    table.calmini tr:nth-child(even) {
-        background-color: rgb(var(--color-background));
-        border-radius: 5px
-    }
-    
-    .panel-default > .panel-heading {
-        color: #4d4d4d;
-        background-color: rgb(var(--color-foreground));
-    }
-    
-    div.ilBlogList {
-            padding: 10px;
-            margin-bottom: 20px;
-            background-color: rgb(var(--color-background));
-    }
-    div.ilNotes {
-        background-color: rgb(var(--color-foreground));
-        padding: 15px;
-    }
-    
-    div.il_ContainerItemCommands2 {
-        text-align: right;
-        margin: 0 3px 3px 3px;
-    }
-    
-    div.light {
-        color: rgb(var(--color-text));
-    }
-    
-    div.ilc_page_cont_PageContainer {
-        background-color: rgb(var(--color-foreground));
-        border-width: 1px;
-        border-color: rgb(var(--color-foreground-grey));
-        padding: 20px;
-        margin: 0px;
-        border-style: solid;
-    }
-    .surveySheet {
-        padding: 20px;
-        border-style: solid;
-        border-color: #9EADBA;
-        border-left-width: 1px;
-        border-right-width: 1px;
-        border-top-width: 1px;
-        border-bottom-width: 1px;
-        margin-bottom: 0px;
-         border-radius: 10px;
-    }
-    
-    td.nobackground {
-        color: white;
-        background-color: inherit;
-        border-spacing: 0;
-        border: none;
-        padding: 3px;
-        vertical-align: top;
-    }
-    .obligatory {
-        font-weight: normal;
-        color: rgb(var(--color-link-red));
-        font-variant: normal;
-    }
-    .solutionbox {
-        color: white;
-        background-color: rgb(var(--color-foreground));
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-style: inset;
-        border-width: 1px;
-        display: inline-block;
-        width: 400px;
-        border-radius: 10px;
-    }
-    
-    
-    /* width */
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-color: rgb(var(--color-foreground-grey));
+}
 
-    /* Track */
-    ::-webkit-scrollbar-track {
-        background:  rgb(var(--color-foreground));
-    }
+ul.ilCalSel li {
+    border-bottom: 1px solid rgb(var(--color-text));
+    margin-bottom: 2px
+}
 
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: rgb(var(--color-text-lighter));
-        border-radius: 5px;
-    }
 
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: rgb(var(--color-red));
-    }
+#il_center_col div.il_Block,
+div.ilBlockInfo {
+    margin-top: 2px;
+    border-radius: 5px
+}
+
+.btn-default,
+span.ilNewsRssIcon {
+    border-radius: 5px;
+    border: none
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    color: rgb(var(--color-link-green));
+    background-color: rgb(var(--color-foreground));
+    border: none;
+}
+
+#ilTopNav .navbar-nav > li > a:hover,
+#ilTopNav .navbar-nav > li > a:active,
+#ilTopNav .navbar-nav > li > a:focus,
+.ilBlockContent .il-viewcontrol-section .btn.btn-default,
+.jstree.jstree-default a {
+    color: rgb(var(--color-link-green))!important;
+}
+
+a,
+a#il_mhead_t_focus,
+.btn-link {
+    color: rgb(var(--color-link-green));
+}
+
+table.calmini tr:nth-child(odd) {
+    background-color: rgb(var(--color-foreground));
+}
+
+table.calmini tr:nth-child(even) {
+    background-color: rgb(var(--color-background));
+    border-radius: 5px
+}
+
+.panel-default > .panel-heading {
+    color: #4d4d4d;
+    background-color: rgb(var(--color-foreground));
+}
+
+div.ilBlogList {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(var(--color-background));
+}
+div.ilNotes {
+    background-color: rgb(var(--color-foreground));
+    padding: 15px;
+}
+
+div.il_ContainerItemCommands2 {
+    text-align: right;
+    margin: 0 3px 3px 3px;
+}
+
+div.light {
+    color: rgb(var(--color-text));
+}
+
+div.ilc_page_cont_PageContainer {
+    background-color: rgb(var(--color-foreground));
+    border-width: 1px;
+    border-color: rgb(var(--color-foreground-grey));
+    padding: 20px;
+    margin: 0px;
+    border-style: solid;
+}
+.surveySheet {
+    padding: 20px;
+    border-style: solid;
+    border-color: #9EADBA;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+td.nobackground {
+    color: white;
+    background-color: inherit;
+    border-spacing: 0;
+    border: none;
+    padding: 3px;
+    vertical-align: top;
+}
+.obligatory {
+    font-weight: normal;
+    color: rgb(var(--color-link-green));
+    font-variant: normal;
+}
+.solutionbox {
+    color: white;
+    background-color: rgb(var(--color-foreground));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: inset;
+    border-width: 1px;
+    display: inline-block;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(var(--color-foreground));
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--color-text-lighter));
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--color-green));
 }
