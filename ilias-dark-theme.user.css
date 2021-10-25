@@ -432,3 +432,147 @@ td.nobackground {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(var(--color-green));
 }
+
+/* Footer */
+
+#ilFooter {
+    background: rgb(var(--color-background)) !important;
+}
+
+/* Header */
+
+.ilMainHeader.ilTopFixed {
+    /*top: 0px !important*/;
+    display: none;
+}
+
+li.active > a {
+    background: rgb(var(--color-foreground)) !important;
+}
+
+#ilMainMenuEntries {
+    background: rgb(var(--color-background)) !important;
+}
+
+#ilTopNav {
+    margin-left: 0;
+    margin-top: -33px;
+}
+
+.ilMainMenu > .container-fluid {
+    background: rgb(var(--color-background)) !important;
+}
+
+.dropdown.open > a {
+    border-top: 4px solid rgb(var(--color-green)) !important;
+}
+
+.dropdown > a {
+    border-top: 4px solid rgba(0, 0, 0, 0) !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: rgb(var(--color-foreground)) !important;
+}
+
+.ilMainMenu {
+    background-color: rgb(var(--color-background)) !important;
+}
+
+
+/* Color boxes */
+
+.ilc_text_block_Attention {
+    background-color: #fc5c65 !important;
+    color: white;
+}
+
+.ilc_section_Information {
+    background-color: #45aaf2 !important;
+    color: white !important;
+}
+
+/* Forms */
+
+select.form-control {
+    background-color: rgb(var(--color-foreground-grey));
+    color: white;
+}
+
+.btn-default {
+    background-color: rgb(var(--color-green)) !important;
+}
+
+.btn-default > span {
+    color: #000;
+}
+
+#current_perma_link {
+    background-color: rgb(var(--color-foreground-grey));
+    color: white;
+}
+
+tr.std {
+    background-color: rgb(var(--color-foreground)) !important;
+    color: #fff;
+}
+
+.submit {
+    background-color: rgb(var(--color-foreground)) !important;
+}
+
+input.form-control {
+    background-color: rgb(var(--color-background)) !important;
+    color: #fff;
+}
+
+#ilTopBarNav .dropdown-menu {
+    background-color: rgb(var(--color-background)) !important;
+}
+
+/* Buttons top right */
+#ilTopBarNav > li > a {
+    background-color: rgb(var(--color-background)) !important;
+}
+
+#ilTopBarNav > li > a:hover {
+    background-color: rgb(var(--color-foreground)) !important;
+}
+
+#ilTopBarNav > li > a {
+    border-top: 0 !important;
+}
+
+/* Tab buttons */
+li > a:hover {
+    background-color: rgb(var(--color-foreground)) !important;
+}
+
+/* Cards */
+.il-card {
+    background-color: rgb(var(--color-foreground)) !important;
+    border: 0;
+}
+
+.il_info {
+    color: white !important;
+    border: 0;
+}
+
+.caption {
+    border: 0 !important;
+}
+
+.panel-primary {
+    background-color: rgb(var(--color-foreground)) !important;
+}
+
+.ilCOPageSection {
+    background-color: rgb(var(--color-foreground)) !important;
+}
+
+/* Forum */
+.ilFrmPostRow {
+    background-color: rgb(var(--color-foreground)) !important;
+    border-top: 1px solid rgb(var(--color-background));
+}
