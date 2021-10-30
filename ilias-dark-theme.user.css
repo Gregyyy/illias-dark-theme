@@ -436,7 +436,11 @@ td.nobackground {
 /* Footer */
 
 #ilFooter {
-    background: rgb(var(--color-background)) !important;
+    background: rgb(var(--color-foreground)) !important;
+}
+
+footer.ilFooter {
+    background-color: rgb(var(--color-foreground)) !important;
 }
 
 /* Header */
@@ -477,6 +481,10 @@ li.active > a {
 
 .ilMainMenu {
     background-color: rgb(var(--color-background)) !important;
+}
+
+.ilMainHeader {
+    border-bottom: 0;
 }
 
 
