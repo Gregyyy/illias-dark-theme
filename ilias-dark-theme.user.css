@@ -584,3 +584,8 @@ li > a:hover {
     background-color: rgb(var(--color-foreground)) !important;
     border-top: 1px solid rgb(var(--color-background));
 }
+
+/* Text */
+.ilc_link_ExtLink {
+    color: #fff !important;
+}
