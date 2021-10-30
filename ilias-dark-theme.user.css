@@ -500,6 +500,10 @@ li.active > a {
     color: white !important;
 }
 
+.ilc_text_block_Additional {
+    background-color: rgb(var(--color-background)) !important;
+}
+
 /* Forms */
 
 select.form-control {
@@ -587,5 +591,73 @@ li > a:hover {
 
 /* Text */
 .ilc_link_ExtLink {
+    color: #fff !important;
+}
+
+/* Wiki */
+div.ilc_page_toc_PageTOC {
+    background-color: rgb(var(--color-background));
+    border: 1px solid transparent;
+}
+
+div.ilc_Code {
+    background: rgb(var(--color-background));
+    border: 0
+}
+
+td.ilc_LineNumbers {
+    background: rgb(var(--color-foreground));
+    padding-left: 0;
+}
+
+td.ilc_Sourcecode {
+    padding-left: 0;
+    background: rgb(var(--color-foreground));
+}
+
+td.ilc_LineNumbers > pre {
+    background-color: rgb(var(--color-foreground)) !important;
+    color: #fff;
+    border: 0;
+    border-right: 1px solid #fff;
+    margin-bottom: 0;
+}
+
+td.ilc_Sourcecode > pre {
+    background-color: rgb(var(--color-foreground)) !important;
+    margin: 0;
+    border: 0;
+    color: #fff;
+}
+
+span[style="color: #009900;"] {
+    color: #fff !Important;
+}
+
+span[style="color: #000000; font-weight: bold;"] {
+    color: #ff7b67 !important;
+}
+
+span[style="color: #000066; font-weight: bold;"] {
+    color: #ff7b67 !important;
+}
+
+span[style="color: #0000ff;"] {
+    color: #7fd6ff !important;
+}
+
+span[style="color: #003399;"] {
+    color: #d2a8ff !important;
+}
+
+span[style="color: #006633;"] {
+    color: #fff !important;
+}
+
+span[style="color: #cc66cc;"] {
+    color: #79c0d1 !important;
+}
+
+span[style="color: #339933;"] {
     color: #fff !important;
 }
